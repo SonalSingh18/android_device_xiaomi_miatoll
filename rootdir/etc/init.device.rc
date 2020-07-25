@@ -22,6 +22,9 @@ on boot && property:ro.product.vendor.device=*
 on init && property:ro.boot.product.hardware.sku=nfc
     start vendor.nfc_hal_service
 
+on post-fs-data && property:ro.boot.product.hardware.sku=nfc
+    mkdir /data/vendor/nfc 0770 nfc nfc
+
 # perf tuning
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,7
