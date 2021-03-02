@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The Havoc-OS
+# Copyright (C) 2020 The Evolution-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_miatoll.mk
+    $(LOCAL_DIR)/evolution_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_miatoll-user \
-    havoc_miatoll-userdebug \
-    havoc_miatoll-eng
+    evolution_miatoll-user \
+    evolution_miatoll-userdebug \
+    evolution_miatoll-eng
