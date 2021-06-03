@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The Evolution-X Project
+# Copyright (C) 2020 The DotOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_miatoll.mk
+    $(LOCAL_DIR)/dot_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_miatoll-user \
-    evolution_miatoll-userdebug \
-    evolution_miatoll-eng
+    dot_miatoll-user \
+    dot_miatoll-userdebug \
+    dot_miatoll-eng
