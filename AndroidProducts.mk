@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The ArrowOS
+# Copyright (C) 2020 The CAF-Extended
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_miatoll.mk
+    $(LOCAL_DIR)/cafex_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_miatoll-user \
-    arrow_miatoll-userdebug \
-    arrow_miatoll-eng
+    cafex_miatoll-user \
+    cafex_miatoll-userdebug \
+    cafex_miatoll-eng
