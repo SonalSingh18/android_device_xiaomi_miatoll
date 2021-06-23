@@ -17,9 +17,14 @@ TARGET_BOOTLOADER_BOARD_NAME := miatoll
 
 # HIDL
 ODM_MANIFEST_SKUS += \
-    joyeuse
+    nfc
 
-ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest_joyeuse.xml
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
+
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_miatoll
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_miatoll
+
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
