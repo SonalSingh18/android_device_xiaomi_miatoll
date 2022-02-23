@@ -7,14 +7,17 @@
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Evolution-X stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+EVO_BUILD_TYPE := CUSTOM
 
 TARGET_BOOT_ANIMATION_RES := 1080
-DEVICE_MAINTAINER := SonalSingh
 
 # Device identifier
-PRODUCT_NAME := arrow_miatoll
+PRODUCT_NAME := evolution_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Miatoll
