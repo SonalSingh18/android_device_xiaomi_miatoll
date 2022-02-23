@@ -9,7 +9,7 @@
     "remote": "github",
     "repository": "SonalSingh18/android_device_xiaomi_sm6250-common",
     "target_path": "device/xiaomi/sm6250-common",
-    "branch": "arrow-13.0"
+    "branch": "tiramisu"
   },
   {
     "remote": "github",
