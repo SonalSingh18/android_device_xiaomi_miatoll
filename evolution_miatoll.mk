@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The ArrowOS
+# Copyright (C) 2022 Evolution-X
 #
 # SPDX-License-Identifier: Apache-2.0
 #
