@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Evolution-X
+# Copyright (C) 2022 The Evolution-X Project.
 #
 # SPDX-License-Identifier: Apache-2.0
 #
