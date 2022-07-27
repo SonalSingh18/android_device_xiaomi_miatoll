@@ -10,6 +10,11 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Inherit some common ArrowOS stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+# Inherit lawnchair conditionally
+ifeq ($(LAWNCHAIR), true)
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+endif
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
