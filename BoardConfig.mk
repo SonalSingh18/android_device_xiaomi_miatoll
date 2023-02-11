@@ -15,10 +15,6 @@ DEVICE_PATH := device/xiaomi/miatoll
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := miatoll
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_miatoll
-TARGET_RECOVERY_DEVICE_MODULES := libinit_miatoll
-
 # HIDL
 ODM_MANIFEST_SKUS += \
     joyeuse
