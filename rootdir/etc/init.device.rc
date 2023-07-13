@@ -20,7 +20,6 @@ on boot && property:ro.product.vendor.device=*
     start thermal-engine
 
 on init && property:ro.boot.hwname=joyeuse
-    setprop ro.boot.product.hardware.sku joyeuse
     start vendor.nfc_hal_service
 
 # perf tuning
