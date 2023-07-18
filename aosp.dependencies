@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "Xiaomi-SD720G-Devices/android_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250",
+    "branch": "Forza-13",
+    "remote": "github"
+  },
+  {
+    "repository": "Xiaomi-SD720G-Devices/android_device_xiaomi_sm6250-common",
+    "target_path": "device/xiaomi/sm6250-common",
+    "branch": "tiramisu+",
+    "remote": "github"
+  },
+  {
+    "repository": "Xiaomi-SD720G-Devices/android_vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll",
+    "branch": "tiramisu+",
+    "remote": "github"
+  },
+  {
+    "repository": "Xiaomi-SD720G-Devices/android_vendor_xiaomi_sm6250-common",
+    "target_path": "vendor/xiaomi/sm6250-common",
+    "branch": "tiramisu+",
+    "remote": "github"
+  },
+  {
+    "repository": "Panchajanya1999/azure-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-14.0",
+    "branch": "main",
+    "remote": "github"
+  },
+  {
+    "repository": "userariii/vendor-xiaomi-miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "miuicam",
+    "remote": "gitlab"
+  }
+]
