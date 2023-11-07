@@ -2,13 +2,13 @@
   {
     "repository": "Xiaomi-SD720G-Devices/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250",
-    "branch": "Forza-13",
+    "branch": "RedCherry+",
     "remote": "github"
   },
   {
     "repository": "Xiaomi-SD720G-Devices/android_device_xiaomi_sm6250-common",
     "target_path": "device/xiaomi/sm6250-common",
-    "branch": "tiramisu+",
+    "branch": "14",
     "remote": "github"
   },
   {
@@ -20,7 +20,7 @@
   {
     "repository": "Xiaomi-SD720G-Devices/android_vendor_xiaomi_sm6250-common",
     "target_path": "vendor/xiaomi/sm6250-common",
-    "branch": "tiramisu+",
+    "branch": "14",
     "remote": "github"
   },
   {
